@@ -1,10 +1,5 @@
 body {
-	font: 54px 'Roboto', sans-serif;
-	/* font: 54px 'Century Gothic', Futura, sans-serif; */
-	background-image: url('3lights.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	font: 14px 'Century Gothic', Futura, sans-serif;
 	margin: 20px;
 }
 
@@ -25,25 +20,25 @@ ul {
 
 .square {
 	background: #fff;
-	border: 2px solid #999;
+	border: 1px solid #999;
 	float: left;
 	font-size: 24px;
 	font-weight: bold;
-	line-height: 100px;
-	height: 100px;
+	line-height: 34px;
+	height: 34px;
 	margin-right: -1px;
 	margin-top: -1px;
 	padding: 0;
 	text-align: center;
-	width: 100px;
+	width: 34px;
 }
 
 .square:focus {
-	outline: darkblue;
+	outline: none;
 }
 
 .kbd-navigation .square:focus {
-	background: rgb(148, 62, 62);
+	background: #ddd;
 }
 
 .game {
